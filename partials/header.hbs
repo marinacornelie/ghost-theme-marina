@@ -1,0 +1,43 @@
+<nav class="navbar" role="navigation" aria-label="main navigation">
+
+  <div class="navbar-brand">
+    <a class="navbar-item">
+      <img src="{{@site.logo}}">
+    </a>
+  </div>
+
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item">
+       Tags
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More
+        </a>
+
+        <div class="navbar-dropdown">
+          {{navigation}}
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</nav>
+
+<section class="hero header-color">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title centered">
+       {{@blog.title}}
+      </h1>
+      <h2 class="subtitle centered">
+        {{@blog.description}}
+      </h2>
+    </div>
+  </div>
+</section>
+
