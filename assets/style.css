@@ -13,3 +13,24 @@ body {
 .navbar-link:not(.is-arrowless)::after {
     border-color: black;
 }
+
+a.navbar-item:hover {
+    background-color: #fafafa;
+    color: #72d4cb;
+}
+
+.navbar-link:hover {
+    background-color: #fafafa;
+    color: #72d4cb;
+}
+
+a {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #fafafa;
+    color: #72d4cb;
+}
