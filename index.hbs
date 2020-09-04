@@ -1,1 +1,8 @@
 {{!< default}}
+<div class = "columns is-centered is-multiline">
+    {{#foreach posts}}
+    <div class="column is-half">
+        {{>postcard}}
+    </div>
+    {{/foreach}}
+</div>
