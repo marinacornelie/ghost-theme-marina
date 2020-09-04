@@ -10,18 +10,23 @@ body {
     font-family: Raleway;
 }
 
-.navbar-link:not(.is-arrowless)::after {
-    border-color: black;
-}
 
 a.navbar-item:hover {
     background-color: #fafafa;
     color: #72d4cb;
 }
 
+.navbar-link {
+    color: black;
+}
+
 .navbar-link:hover {
     background-color: #fafafa;
     color: #72d4cb;
+}
+
+.navbar-link:not(.is-arrowless)::after {
+    border-color: black;
 }
 
 a {
