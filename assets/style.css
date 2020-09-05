@@ -46,3 +46,10 @@ a:hover {
     width: auto;
     padding: 24px;
 }
+
+.card {
+    border-style: solid;
+    border-color: #000000;
+    padding: 25px;
+    border-radius: 5px;
+}
