@@ -48,14 +48,14 @@ a:hover {
 }
 
 .card {
-    border-style: solid;
-    border-color: #000000;
-    padding: 25px;
-    border-radius: 5px;
+    padding: 60px;
+    border-radius: 15px;
+    background-color: #ff89641a;
 }
 
 .border {
     border-style: solid;
-    border-color: #000000;
-    border-radius: 5px;  
+    color: black;
+    border-radius: 5px;
+    background-color: white;
 }
