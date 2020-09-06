@@ -1,0 +1,9 @@
+<nav class="pagination is-small" role="navigation" aria-label="pagination">    
+    {{#if prev}}
+        <a class="pagination-previous" href="{{page_url prev}}">&larr;Previous page</a>
+    {{/if}}
+   <span class="page-number">Page {{page}} of {{pages}}</span>
+    {{#if next}}
+        <a class="pagination-next" href="{{page_url next}}">Next page &rarr;</a>
+    {{/if}}
+</nav>
