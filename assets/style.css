@@ -39,12 +39,17 @@ a:hover {
     color: #72d4cb;
 }
 
+.columns.is-variable .column {
+    padding-top: var(--columnGap);
+    padding-bottom: var(--columnGap);
+}
+
 .columns-container {
     flex-grow: 1;
     margin: 0 auto;
     position: relative;
     width: auto;
-    padding: 24px;
+    padding: 2.5rem;
 }
 
 .card {
@@ -59,3 +64,4 @@ a:hover {
     border-radius: 5px;
     background-color: white;
 }
+
