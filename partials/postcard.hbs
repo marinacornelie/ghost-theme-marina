@@ -1,15 +1,36 @@
 <div class="card">
     <div class="border">
-    <div class="card-header">
-         <a href="{{url}}" class="card-header-title">{{title}}</a> 
-    </div>
-    <div class="card-image">
-        <a href="{{url}}">
-        <figure class="image is-4by3">
-         <img src="{{feature_image}}" alt="Feature Image">  
-        </figure>
-        </a>
-    </div>
-    <div class="card-content"></div>
+        <div class="card-header">
+             <a href="{{url}}" class="card-header-title">{{title}}</a> 
+        </div>
+        <div class="card-image">
+            <a href="{{url}}">
+            <figure class="image is-4by3">
+             <img src="{{feature_image}}" alt="Feature Image">  
+            </figure>
+            </a>
+        </div>
+        <div class="card-content">
+            {{#foreach authors}}
+            <figure class="image is-32x32">
+            <img src="{{profile_image}}" alt="Profile Image">
+            </figure>
+            <a href="{{url}}" class="is-size-8">{{name}}</a>    
+            {{/foreach}}
+        </div>
+        <footer class="card-footer">
+            <p class="card-footer-item">
+            <span>
+             <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time>
+            </span>
+            </p>
+            <p class="card-footer-item">
+            <span>
+            {{#foreach tags}}
+            <a href="{{url}}" class="">{{name}}</a>
+            {{/foreach}}
+            </span>
+            </p>
+        </footer>
     </div>
 </div>
