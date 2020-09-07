@@ -58,6 +58,10 @@ a:hover {
     background-color: #ff89641a;
 }
 
+.card-content {
+    display: flex;
+}
+
 .border {
     border-style: solid;
     color: black;
