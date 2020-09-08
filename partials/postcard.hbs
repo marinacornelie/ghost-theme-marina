@@ -5,40 +5,40 @@
         </div>
         <div class="card-image">
             <a href="{{url}}">
-            <figure class="image is-4by3">
-             <img src="{{feature_image}}" alt="Feature Image">  
-            </figure>
+                <figure class="image is-4by3">
+                    <img src="{{feature_image}}" alt="Feature Image">  
+                </figure>
             </a>
         </div>
         <div class="card-content">
             <div class="card-container">
                 {{#foreach authors limit="1"}}
-                {{#if profile_image}}
-                <img src="{{profile_image}}" class="image is-32x32 object-fit-cover" alt="Profile Image">
-                {{/if}}
-                <a href="{{url}}" class="author-name is-size-8">{{name}}</a>   
+                    {{#if profile_image}}
+                        <img src="{{profile_image}}" class="image is-32x32 object-fit-cover" alt="Profile Image">
+                    {{/if}}
+                        <a href="{{url}}" class="author-name is-size-8">{{name}}</a>   
                 {{/foreach}}
                 {{#has author="count:>1"}}
-                <span class="author-name is-size-8">+ other(s)</span>
+                    <span class="author-name is-size-8">+ other(s)</span>
                 {{/has}} 
             </div>
         </div>
         <footer class="card-footer">
             <p class="card-footer-item">
-            <span>
-            <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time>
-            </span>
+                <span>
+                    <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time>
+                </span>
             </p>
             <p class="card-footer-item">
-            <span>
-            {{#foreach tags limit="1"}}
-            <a href="{{url}}" class="">{{name}}</a>
-            {{/foreach}}
-            </span>
-            {{#has tag="count:>1"}}
-            <span>,...</span>
-            {{/has}}
-            </p>
+                <span>
+                    {{#foreach tags limit="1"}}
+                        <a href="{{url}}" class="">{{name}}</a>
+                    {{/foreach}}
+                 </span>
+                {{#has tag="count:>1"}}
+                    <span>,...</span>
+                {{/has}}
+             </p>
         </footer>
     </div>
 </div>
