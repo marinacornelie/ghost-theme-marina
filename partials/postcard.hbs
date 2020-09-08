@@ -11,7 +11,7 @@
             </a>
         </div>
         <div class="card-content">
-            {{#foreach authors}}
+            {{#foreach authors limit="1"}}
             <div class="card-container">
             {{#if profile_image}}
             <img src="{{profile_image}}" class="image is-32x32 object-fit-cover" alt="Profile Image">
@@ -28,7 +28,7 @@
             </p>
             <p class="card-footer-item">
             <span>
-            {{#foreach tags}}
+            {{#foreach tags limit="1"}}
             <a href="{{url}}" class="">{{name}}</a>
             {{/foreach}}
             </span>
