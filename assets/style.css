@@ -58,8 +58,14 @@ a:hover {
     background-color: #ff89641a;
 }
 
-.card-content {
+.card-container {
     display: flex;
+}
+
+.author-name {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .border {
@@ -78,4 +84,8 @@ a:hover {
     .pagination-previous {
         order: 0;
     }   
+}
+
+.object-fit-cover {
+    object-fit: cover;
 }
