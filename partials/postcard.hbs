@@ -12,9 +12,11 @@
         </div>
         <div class="card-content">
             {{#foreach authors}}
+            {{#if profile_image}}
             <figure class="image is-32x32">
             <img src="{{profile_image}}" alt="Profile Image">
             </figure>
+            {{/if}}
             <a href="{{url}}" class="is-size-8">{{name}}</a>    
             {{/foreach}}
         </div>
