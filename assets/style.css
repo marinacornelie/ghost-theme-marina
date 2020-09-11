@@ -101,3 +101,14 @@ a:hover {
     background-color: white;
     border-width: thin;
 }
+
+.footer {
+    background-color: #72d4cb12;
+    padding: 1.5rem 0.75rem 3rem;
+}
+
+.footer-title {
+    font-size: 1.5rem;
+    margin: 0.5em;
+    font-weight: bold;
+}

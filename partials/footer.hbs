@@ -1,0 +1,14 @@
+<footer class="footer">
+  <div class="content">
+    <span class="footer-title">Recent Posts</span>
+    <ul>
+        {{#get "posts" limit="3" as |recent|}}
+        {{#foreach recent}}
+            <li>   
+                <a class= "subtitle is-6" href="{{url}}">{{title}}</a>
+            </li>         
+        {{/foreach}}
+        {{/get}}
+    </ul>
+  </div>
+</footer>
