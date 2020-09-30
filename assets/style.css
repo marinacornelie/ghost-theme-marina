@@ -53,12 +53,6 @@ a:hover {
     padding: 2.5rem;
 }
 
-.card {
-    padding: 60px;
-    border-radius: 15px;
-    background-color: #ff89641a;
-}
-
 .card-container {
     display: flex;
 }
@@ -67,6 +61,7 @@ a:hover {
     padding-left: 10px;
     display: flex;
     align-items: center;
+    color: black;
 }
 
 .border {
@@ -112,4 +107,8 @@ a:hover {
     font-size: 1.5rem;
     margin: 0.5em;
     font-weight: bold;
+}
+
+.card-footer-item {
+    color: black;
 }
