@@ -138,3 +138,8 @@ a:hover {
     padding: 20px;
     background: #f167391c;
 }
+
+.section {
+    max-width: 800px;
+    margin: auto;
+}
