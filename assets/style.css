@@ -116,6 +116,7 @@ a:hover {
 
 .card-footer-item {
     color: black;
+    white-space: nowrap;
 }
 
 .card {
