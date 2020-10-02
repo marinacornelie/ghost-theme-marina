@@ -43,6 +43,10 @@ a:hover {
     color: #72d4cb;
 }
 
+.card a {
+    transition: all 0.3s; 
+}
+
 .columns.is-variable .column {
     padding-top: var(--columnGap);
     padding-bottom: var(--columnGap);
