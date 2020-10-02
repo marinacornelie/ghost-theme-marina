@@ -76,7 +76,7 @@ a:hover {
 }
 
 .border:hover {
-    border-width: thick;
+    color: #f68446;
 }
 
 .pagination-container {
