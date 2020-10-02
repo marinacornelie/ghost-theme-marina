@@ -1,5 +1,8 @@
-.header-color {
+.header {
     background-color:#72d4cb;
+    border-bottom: solid;
+    border-top: solid;
+    border-width: thin;
 }
 
 .centered {
