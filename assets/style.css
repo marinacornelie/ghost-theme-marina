@@ -152,3 +152,12 @@ a:hover {
     max-width: 800px;
     margin: auto;
 }
+
+@media screen and (max-width: 800px) {
+    .card-footer-item {
+      font-size: smaller;
+     }
+    .author-name {
+        font-size: smaller;
+    }
+}
