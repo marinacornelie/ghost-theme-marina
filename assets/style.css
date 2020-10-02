@@ -109,6 +109,8 @@ a:hover {
 .footer {
     background-color: #72d4cb12;
     padding: 1.5rem 0.75rem 3rem;
+    border-top: solid;
+    border-width: thin;
 }
 
 .footer-title {
