@@ -4,11 +4,15 @@
              <a href="{{url}}" class="card-header-title">{{title}}</a> 
         </div>
         <div class="post-image">
-            <a href="{{url}}">
-                <figure class="image is-4by3">
-                    <img src="{{feature_image}}" alt="Feature Image">  
-                </figure>
-            </a>
+            {{#if feature_image}}
+                <a href="{{url}}">
+                    <figure class="image is-4by3">
+                        <img src="{{feature_image}}" alt="Feature Image">  
+                    </figure>
+                </a>
+            {{else}}
+                <figure class="image is-4by3"></figure>
+            {{/if}}
         </div>
         <div class="card-content">
             <div class="card-container">
