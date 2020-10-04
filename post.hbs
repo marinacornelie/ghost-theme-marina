@@ -1,18 +1,18 @@
 {{!< default}}
 {{#post}}
     <article class="hero">
-    <header class="post-header post-header-border">
-        <section class="title is-6">
-        <h2> By {{authors}}</h2>
-        </section>
-        <section class="subtitle is-6">
-        <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time>
-        {{tags prefix=" on "}}
-        </section>
-         <h1 class="title is-4 center">{{title}}</h1>
-    </header>
-    <section class="section">
-        {{content}}
-    </section>
-</article>
+        <header class="post-header post-header-border">
+            <div class="title is-6 fw-normal">
+                <span>By {{authors}}</span>
+            </div>
+            <div class="subtitle is-6">
+                <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time>
+                {{tags prefix=" on "}}
+            <div>
+            <div class="title is-4 center">{{title}}</div>
+        </header>
+        <section class="section ghost-content">
+            {{content}}
+        <section>
+    </article>
 {{/post}}
