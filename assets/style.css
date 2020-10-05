@@ -162,7 +162,9 @@ a:hover {
 
 .ghost-content {
     max-width: 800px;
+    width: 100%;
     margin: auto;
+}
 }
 
 .ghost-content h2 {
