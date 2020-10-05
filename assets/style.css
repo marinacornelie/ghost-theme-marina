@@ -207,9 +207,15 @@ a:hover {
 
 @media screen and (max-width: 800px) {
     .card-footer-item {
-      font-size: smaller;
+        font-size: smaller;
      }
     .author-name {
         font-size: smaller;
+    }
+    .title.is-6{
+        font-size: 0.75rem;
+    }
+    .subtitle.is-6 {
+        font-size: 0.75rem;
     }
 }
