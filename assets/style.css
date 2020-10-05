@@ -183,6 +183,28 @@ a:hover {
     margin-bottom: 20px;
 }
 
+.ghost-content figure {
+    display: block;
+    margin: 20px;
+}
+
+.ghost-content ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.ghost-content li::before{
+    content: "\2022";
+    color:  #72d4cb;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em
+}
+
+.ghost-content pre, .ghost-content code, .ghost-content img, .ghost-content blockquote {
+    margin-bottom: 20px;
+}
+
 @media screen and (max-width: 800px) {
     .card-footer-item {
       font-size: smaller;
