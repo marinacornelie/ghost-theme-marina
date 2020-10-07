@@ -138,6 +138,12 @@ a.card-header-title {
 .card-footer-item {
     color: black;
     white-space: nowrap;
+    width: 50%;
+}
+
+.card-footer-item a {
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .card {

@@ -16,16 +16,12 @@
         </div> 
         <footer class="card-footer">
             <p class="card-footer-item">
-                <span>
-                    <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time>
-                </span>
+                <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time>
             </p>
             <p class="card-footer-item">
-                <span>
-                    {{#foreach tags limit="1"}}
-                        <a href="{{url}}" class="">{{name}}</a>
-                    {{/foreach}}
-                 </span>
+                {{#foreach tags limit="1"}}
+                    <a href="{{url}}" class="">{{name}}</a>
+                {{/foreach}}
                 {{#has tag="count:>1"}}
                     <span>,...</span>
                 {{/has}}
