@@ -51,6 +51,14 @@ a:hover {
     transition: all 0.3s; 
 }
 
+a.card-header-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    white-space: nowrap;
+    display: block;
+}
+
 .columns.is-variable .column {
     padding-top: var(--columnGap);
     padding-bottom: var(--columnGap);
