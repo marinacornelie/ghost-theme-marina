@@ -13,20 +13,7 @@
             {{else}}
                 <figure class="image is-4by3"></figure>
             {{/if}}
-        </div>
-        <div class="card-content">
-            <div class="card-container">
-                {{#foreach authors limit="1"}}
-                    {{#if profile_image}}
-                        <img src="{{profile_image}}" class="image is-32x32 object-fit-cover" alt="Profile Image">
-                    {{/if}}
-                        <a href="{{url}}" class="author-name is-size-8">{{name}}</a>   
-                {{/foreach}}
-                {{#has author="count:>1"}}
-                    <span class="author-name is-size-8">+ other(s)</span>
-                {{/has}} 
-            </div>
-        </div>
+        </div> 
         <footer class="card-footer">
             <p class="card-footer-item">
                 <span>
