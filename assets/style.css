@@ -115,7 +115,7 @@ a.card-header-title {
 }
 
 .post-header-border {
-    border-style: solid;
+    border-bottom: solid;
     color: #00000069;
     border-radius: 0px;
     background-color: white;
