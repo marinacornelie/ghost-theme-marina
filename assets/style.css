@@ -216,7 +216,7 @@ a.card-header-title {
     margin-left: -1em
 }
 
-.ghost-content pre, .ghost-content code, .ghost-content img, .ghost-content blockquote {
+.ghost-content pre, .ghost-content code, .ghost-content img, .ghost-content ol, .ghost-content blockquote {
     margin-bottom: 20px;
 }
 
