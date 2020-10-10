@@ -2,6 +2,9 @@
 
 Marina is a lightweight, open source theme for the [Ghost blogging platform](https://ghost.org).
 
+## Screenshot
+
+![alt text](screenshot-indexview.png)
 
 ## Installation
 
