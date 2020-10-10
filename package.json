@@ -4,6 +4,9 @@
     "engines": { 
         "ghost": ">=1.0.0"
     }, 
+    "author": {
+        "email": "marina@delevop.er"
+    },
     "config": {
         "posts_per_page": 6  
     }
